@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Web Archive (pop2024)" type="StardustRunConfiguration" factoryName="save-as-zip" editBeforeRun="true">
+    <option name="folderPath" value="$PROJECT_DIR$" />
+    <option name="instanceId" value="pop2024" />
+    <option name="instanceName" value="PoP 2024 Unofficial Guide" />
+    <method v="2" />
+  </configuration>
+</component>

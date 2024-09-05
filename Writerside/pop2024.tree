@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="pop2024"
+                 name="PoP 2024 Unofficial Guide"
+                 start-page="WeekOneConcepts.md">
+
+    <toc-element topic="F-Foundations-Week-1-Syntax-and-Concepts-Guide.md"/>
+    <toc-element topic="WeekOneConcepts.md"/>
+    <toc-element topic="F-Syntax-Covered-in-Week-1.md"/>
+    <toc-element topic="WeekOneHandsOn.md"/>
+    <toc-element topic="Week-1-Flashcards.md"/>
+</instance-profile>

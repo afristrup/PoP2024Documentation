@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="2d8a2d15">
+        <description>Created after removal of "Starter" from Instance Name</description>
+        <accepts>starter.html</accepts>
+    </rule>
+    <rule id="5dd266be">
+        <description>Created after removal of "Week 1" from PoP 2024 Documentation</description>
+        <accepts>Week-1.html</accepts>
+    </rule>
+    <rule id="b0a07bb">
+        <description>Created after removal of "Week 1 Hands-On: F# Exercises" from PoP 2024 Documentation</description>
+        <accepts>WeekOneHandsOn1.html</accepts>
+    </rule>
+    <rule id="1bc00255">
+        <description>Created after removal of "Week 1 Overview: Programming Concepts from the Lecture" from PoP 2024
+            Documentation
+        </description>
+        <accepts>WeekOneConcepts1.html</accepts>
+    </rule>
+    <rule id="ad88c23">
+        <description>Created after removal of "F# Syntax Covered in Week 1" from PoP 2024 Documentation</description>
+        <accepts>F-Syntax-Covered-in-Week-11.html</accepts>
+    </rule>
+    <rule id="77bcff63">
+        <description>Created after removal of "F# Foundations: Week 1 Syntax and Concepts Guide" from PoP 2024
+            Documentation
+        </description>
+        <accepts>F-Foundations-Week-1-Syntax-and-Concepts-Guide1.html</accepts>
+    </rule>
+</rules>

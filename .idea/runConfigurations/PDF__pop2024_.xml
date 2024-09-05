@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="PDF (pop2024)" type="StardustRunConfiguration" factoryName="build-pdf">
+    <option name="addCover" value="true" />
+    <option name="copyright" />
+    <option name="description" value="This comprehensive guide covers the Programming and Problem Solving (PoP) course, introducing F# programming and fundamental software development concepts. Each week's material builds upon the previous, progressing from basic syntax to advanced topics in functional programming." />
+    <option name="folderPath" value="$PROJECT_DIR$" />
+    <option name="footer" />
+    <option name="header" />
+    <option name="instanceId" value="pop2024" />
+    <option name="instanceName" value="PoP 2024 Documentation" />
+    <option name="layout" />
+    <option name="logoPath" />
+    <option name="title" value="Programming and Problem Solving 2024 - The Unofficial Guide" />
+    <method v="2" />
+  </configuration>
+</component>
