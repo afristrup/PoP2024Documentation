@@ -34,4 +34,9 @@
         </description>
         <accepts>F-Foundations-Week-1-Syntax-and-Concepts-Guide1.html</accepts>
     </rule>
+    <rule id="53742ccf">
+        <description>Created after removal of "Week 1 Hands-On: F# Exercises" from PoP 2024 Unofficial Guide
+        </description>
+        <accepts>WeekOneHandsOn.html</accepts>
+    </rule>
 </rules>
