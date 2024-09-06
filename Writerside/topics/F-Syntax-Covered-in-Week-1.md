@@ -1,6 +1,6 @@
 # F# Syntax Covered in Week 1
 
-# Table of Contents: F# Syntax Covered in Week 1
+# Table of Contents
 
 1. [Basic Syntax](#1-basic-syntax)
    1.1. [Value Binding](#value-binding)
