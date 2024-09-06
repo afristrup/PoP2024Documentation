@@ -2,7 +2,7 @@
 
 ## Description
 
-This comprehensive guide covers the fundamental syntax and concepts of F# introduced in the first week of the Programming in Practice (PoP) course. It is designed to serve both beginners and experienced programmers, offering dual-level explanations for each topic.
+This comprehensive guide covers the fundamental syntax and concepts of F# introduced in the first week of the Programming and Problem-Solving (PoP) course. It is designed to serve both beginners and experienced programmers, offering dual-level explanations for each topic.
 
 The document provides a structured overview of F# basics, including:
 
