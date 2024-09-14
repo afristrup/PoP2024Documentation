@@ -201,7 +201,7 @@ let f (x: Mix) = true
 
 ### Lists
 
-**Beginner:** These are ordered collections of items of the same type.
+**Beginner:** Lists are ordered collections of items of the same type.
 
 **Experienced:** F# lists are immutable, singly-linked lists. They're optimized for prepending elements and recursion.
 
@@ -264,6 +264,20 @@ val ll: int list = [1; 2; 3; 4; 5; 6; 7; 8; 9; 10; ...]
 > let ll = l[90..];;
 val ll: int list = [91; 92; 93; 94; 95; 96; 97; 98; 99; 100]
 ```
+
+**Explanations:**
+
+1. Lists can be created by explicitly listing elements or using range notation.
+2. An empty list is represented as `[]` and has a generic type `'a list`.
+3. The `::` operator prepends an element to a list. It's an efficient operation for F# lists.
+4. Lists can be concatenated using the `@` operator.
+5. `l.Head` returns the first element of the list, while `l.Tail` returns a new list containing all elements except the first.
+6. List slicing allows you to create new lists from portions of existing lists:
+   - `l[4..20]` creates a new list with elements from index 4 to 20.
+   - `l[..20]` creates a new list with elements from the start to index 20.
+   - `l[90..]` creates a new list with elements from index 90 to the end.
+
+These operations demonstrate the fundamental ways to create, manipulate, and access elements in F# lists.
 
 ## 4. Recursion
 
