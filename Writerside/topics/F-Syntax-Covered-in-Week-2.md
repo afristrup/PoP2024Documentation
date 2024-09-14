@@ -23,6 +23,8 @@
 
 6. [Bit Manipulation (Advanced Topic)](#6-bit-manipulation-advanced-topic)
 
+This page provides an overview of all the syntax covered in week 2 of the course.
+
 ## 1. Types
 
 ### Basic Types
@@ -33,24 +35,31 @@
 
 **Example:**
 ```fsharp
+// Integer types
 > 1;;
 val it: int = 1
 
+// Unsigned byte
 > 1uy;;
 val it: byte = 1uy
 
+// 16-bit integer
 > 1s;;
 val it: int16 = 1s
 
+// floating-point number
 > 1.0;;
 val it: float = 1.0
 
+// Character
 > 'v';;
 val it: char = 'v'
 
+// String
 > "sdfs";;
 val it: string = "sdfs"
 
+// Unit type
 > ();;
 val it: unit = ()
 ```
@@ -84,6 +93,7 @@ val f: x: 'a -> bool
 
 **Example:**
 ```fsharp
+// Explicit type annotation with generic type `'a`
 > let (x: 'a) = 2;;
 val x: int = 2
 ```
@@ -96,6 +106,7 @@ val x: int = 2
 
 **Example:**
 ```fsharp
+// Convert string to int
 > let (x: int) = int "2";;
 val x: int = 2
 ```
@@ -196,18 +207,23 @@ let f (x: Mix) = true
 
 **Example:**
 ```fsharp
+// Creating lists
 > let l = [1; 2; 3];;
 val l: int list = [1; 2; 3]
 
+// Generate a range
 > let l = [1 .. 3];;
 val l: int list = [1; 2; 3]
 
+// Empty list of a generic type `'a`
 > [];;
 val it: 'a list
 
+// Prepending elements to a list
 > 1::[2];;
 val it: int list = [1; 2]
 
+// Prepending a single element to an empty list
 > "a"::[];;
 val it: string list = ["a"]
 
@@ -217,6 +233,7 @@ val lstOne: int list = [1; 2; 61; 24]
 > let lstTwo = [2 .. 5];;
 val lstTwo: int list = [2; 3; 4; 5]
 
+// Concatenating lists
 > lstOne @ lstTwo;;
 val it: int list = [1; 2; 61; 24; 2; 3; 4; 5]
 
@@ -226,12 +243,15 @@ val it: int list = [2; 3; 4; 5; 1; 2; 61; 24]
 > [2 .. 4] @ [2];;
 val it: int list = [2; 3; 4; 2]
 
+// List head is the first element of the list
 > let h = l.Head;;
 val h: int = 1
 
+// List tail is the list without the head
 > let t = l.Tail;;
 val t: int list = [2; 3]
 
+// List slicing
 > let l = [1..100];;
 val l: int list = [1; 2; 3; 4; 5; 6; 7; 8; 9; 10; ...]
 
